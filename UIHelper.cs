@@ -7,7 +7,7 @@ namespace PROGPART1
     {
        public static void DisplayAscii()//ASCII art for the chatbot interface
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             Console.WriteLine(@"
  __| |____________________________________________| |__
