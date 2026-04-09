@@ -7,7 +7,7 @@ namespace PROGPART1
     {
        public static void DisplayAscii()
         {
-            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.ForegroundColor = ConsoleColor.Blue;
 
             Console.WriteLine(@"
  __| |____________________________________________| |__
