@@ -29,6 +29,7 @@ namespace PROGPART1
             catch (Exception ex)
             {
                 Console.WriteLine("Error playing audio: " + ex.Message);
+
             }
         }
     }
