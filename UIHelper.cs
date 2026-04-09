@@ -5,7 +5,7 @@ namespace PROGPART1
 {
     public class UIHelper
     {
-       public static void DisplayAscii()
+       public static void DisplayAscii()//ASCII art for the chatbot interface
         {
             Console.ForegroundColor = ConsoleColor.Blue;
 
