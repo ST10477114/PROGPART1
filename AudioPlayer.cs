@@ -7,7 +7,7 @@ namespace PROGPART1
 {
     public class AudioPlayer
     {
-        public static void PlayGreeting()
+        public static void PlayGreeting()//Plays a greeting sound when the chatbot starts
         {
             try
             {
