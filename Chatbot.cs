@@ -32,7 +32,7 @@ namespace PROGPART1
 
         private void GreetUser()
         {
-            UIHelper.TypeText($"\nHello, {userName}! I'm your Cybersecurity Assistant.\n");
+            UIHelper.TypeText($"\nHello, {userName}! I'm your Cybersecurity Assistant.\n");//user input, chatbot response
         }
 
         private void RunChat()
