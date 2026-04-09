@@ -2,7 +2,7 @@
 
 namespace PROGPART1
 {
-    public class Chatbot
+    public class Chatbot//Main chatbot class that handles user interaction and responses
     {
         private string userName;
         public void Start()
@@ -13,7 +13,7 @@ namespace PROGPART1
             RunChat();
 
         }
-        private void PlayIntro()
+        private void PlayIntro()//Plays the greeting sound and displays the ASCII art when the chatbot starts
         {
             AudioPlayer.PlayGreeting();
             UIHelper.DisplayAscii();
@@ -30,12 +30,12 @@ namespace PROGPART1
             }
         }
 
-        private void GreetUser()
+        private void GreetUser()//Greets the user with a personalized message
         {
             UIHelper.TypeText($"\nHello, {userName}! I'm your Cybersecurity Assistant.\n");//user input, chatbot response
         }
 
-        private void RunChat()
+        private void RunChat()//Main chat loop that processes user input and generates responses
         {
             while (true)
             {
@@ -68,7 +68,7 @@ namespace PROGPART1
         }
 
         // 🔥 KEYWORD + SPLIT LOGIC
-        private string GetResponse(string input)
+        private string GetResponse(string input)//Generates responses based on keywords found in the user input
         {
             string[] keywords = { "how", "purpose", "ask", "password", "phishing", "browsing","cybersecurity","Malware" };
 
@@ -99,7 +99,8 @@ namespace PROGPART1
                 }
             }
 
-            return "I didn't quite understand that. Try asking about cybersecurity topics.";
+            return "I didn't quite understand that. Try asking about cybersecurity topics.";//Default response if no keywords are found
+                ;
         }
     }
 }
