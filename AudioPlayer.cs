@@ -15,7 +15,7 @@ namespace PROGPART1
 
                 string dirrectory = baseDir.Replace("bin\\Debug\\", "");
 
-                string path_directory = Path.Combine(dirrectory, "Greeting.wav");
+                string path_directory = Path.Combine(dirrectory, "Greeting.wav");//Voice file should be in the same directory as the executable
 
 
 
