@@ -47,7 +47,7 @@ namespace PROGPART1
 
                 if (string.IsNullOrWhiteSpace(input))
                 {
-                    Console.WriteLine("⚠️ Please enter something.")
+                    Console.WriteLine("⚠️ Please enter something.");
                     continue;
                 }
 
